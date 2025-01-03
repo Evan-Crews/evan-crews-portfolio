@@ -36,11 +36,7 @@ export default function ContactSection() {
       setEmail('');
       setMessage('');
       setError('');
-<<<<<<< HEAD
-    } catch (err: unknown) {
-=======
     } catch (err) {
->>>>>>> 6695cbaa1ec7473d70ecd73066cdf0f47ae311ec
       if (err instanceof Error) {
         setError(err.message);
       } else {

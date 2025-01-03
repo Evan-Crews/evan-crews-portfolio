@@ -37,8 +37,12 @@ export default function ContactSection() {
       setEmail('');
       setMessage('');
       setError('');
-    } catch (err) {
-      setError(err.message);
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('An unknown error occurred');
+      }
     }
   };
 

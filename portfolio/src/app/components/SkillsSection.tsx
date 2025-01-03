@@ -2,12 +2,12 @@
 
 import { IconType } from 'react-icons';
 import { FaCode, FaJs, FaHtml5, FaCss3, FaSass, FaReact, FaNodeJs, FaAws, FaDocker, FaGithub } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiBootstrap, SiPostgresql, SiMongodb, SiJest, SiWebsocket, SiElectron } from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiBootstrap, SiPostgresql, SiMongodb, SiJest, SiRsocket, SiElectron } from 'react-icons/si';
 import { TbBrandReactNative } from 'react-icons/tb';
 
 const iconMap: { [key: string]: IconType } = {
   FaCode, FaJs, FaHtml5, FaCss3, FaSass, FaReact, FaNodeJs, FaAws, FaDocker, FaGithub,
-  SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiBootstrap, SiPostgresql, SiMongodb, SiJest, SiWebsocket, SiElectron,
+  SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiBootstrap, SiPostgresql, SiMongodb, SiJest, SiRsocket, SiElectron,
   TbBrandReactNative
 };
 

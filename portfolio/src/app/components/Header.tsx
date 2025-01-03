@@ -19,7 +19,6 @@ export default function Header() {
           <div className="flex flex-wrap gap-4">
             <a href="https://github.com/Evan-Crews" className="text-blue-400 hover:text-blue-300">GitHub</a>
             <a href="https://linkedin.com/in/evan-crews" className="text-blue-400 hover:text-blue-300">LinkedIn</a>
-            <span className="text-gray-400">(951) 204-9857</span>
             <span className="text-gray-400">evancrews21@gmail.com</span>
           </div>
         </div>

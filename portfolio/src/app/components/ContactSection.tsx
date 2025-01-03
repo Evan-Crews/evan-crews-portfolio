@@ -17,9 +17,8 @@ export default function ContactSection() {
       return;
     }
 
-    // Here you would typically send the data to your backend or an email service
+    // potential backend addition
     try {
-      // Example API call (replace with your actual API endpoint)
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {

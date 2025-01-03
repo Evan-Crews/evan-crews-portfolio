@@ -17,7 +17,7 @@ export async function getExperiences(): Promise<Experience[]> {
       duration: "September 2023 - Present",
       logo: "/TimeCrocLogo.png",
       responsibilities: [
-        "Applied dynamic and responsive UIs using React.js, leveraging its component-based architecture and virtual DOM toenhance development efficiency, promote code reusability, and deliver a seamless, interactive UX",
+        "Applied dynamic and responsive UI's using React.js, leveraging its component-based architecture and virtual DOM toenhance development efficiency, promote code reusability, and deliver a seamless, interactive UX",
         "Developed a user-input sanitization module to refine and structure incoming data, ensuring seamless and error-freeposting to the SQL database, resulting in a notable 30% reduction in data corruption incidents and significantly boosting its reliability and efficiency"
       ],
       achievements: [
@@ -38,7 +38,7 @@ export async function getExperiences(): Promise<Experience[]> {
       ],
       achievements: [
         "Enabled secure user authentication with GitHub OAuth, configured settings on the GitHub Developer platform, and Applied Passport.js with cookie-based sessions in Node.js for heightened security and seamless navigation across authenticated routes",
-        "Adopted ongoing T est-Driven Development (TDD) using Jest for unit tests and Supertest for API endpoint testing, ensuring code reliability and maintainability"
+        "Adopted ongoing Test-Driven Development (TDD) using Jest for unit tests and Supertest for API endpoint testing, ensuring code reliability and maintainability"
       ],
       technologies: ["React", "Node.js", "Typescript", "Javascript", "MongoDB", "O-Auth"],
       image: "/ReactTypeScreenshot.webp"

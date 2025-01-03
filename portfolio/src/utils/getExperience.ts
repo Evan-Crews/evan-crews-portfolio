@@ -41,7 +41,7 @@ export async function getExperiences(): Promise<Experience[]> {
         "Adopted ongoing Test-Driven Development (TDD) using Jest for unit tests and Supertest for API endpoint testing, ensuring code reliability and maintainability"
       ],
       technologies: ["React", "Node.js", "Typescript", "Javascript", "MongoDB", "O-Auth"],
-      image: "/ReactTypeScreenshot.webp"
+      image: "/ReacTypeScreenshot.webp"
     }
   ];
 }
